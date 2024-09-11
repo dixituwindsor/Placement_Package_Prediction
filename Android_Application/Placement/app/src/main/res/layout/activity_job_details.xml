@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".JobDetails">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Your Requirements"
+                    android:textSize="20dp"
+                    android:textColor="#090909"
+                    android:layout_marginLeft="50dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Company name"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetppcname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Gender"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/jrgppgender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp">
+
+                    <RadioButton
+                        android:id="@+id/jrbppmale"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Male"/>
+
+                    <RadioButton
+                        android:id="@+id/jrbppfemale"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Female"/>
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="SSC Per."
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetppsscper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="HSC Per."
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetpphscper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Degree Per."
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetppdegreeper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Degree Type"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/jrgppdegreet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp">
+
+                    <RadioButton
+                        android:id="@+id/jrbppdegreescience"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Science and Technology"/>
+
+                    <RadioButton
+                        android:id="@+id/jrbppdegreecommerce"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Commerce and Management"/>
+
+                    <RadioButton
+                        android:id="@+id/jrbppdegreeother"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Other"/>
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Workex"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/jrgppworkex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp">
+
+                    <RadioButton
+                        android:id="@+id/jrbppworkexyes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Yes"/>
+
+                    <RadioButton
+                        android:id="@+id/jrbppworkexno"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="No"/>
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="ETest Per."
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetppetestper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Specialisation"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/jrgppspecialisation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp">
+
+                    <RadioButton
+                        android:id="@+id/jrbppmkthr"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Marketing HR"/>
+
+                    <RadioButton
+                        android:id="@+id/jrbppmktfin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Marketing Finance"/>
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="MBA Per."
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetppmbaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Salary"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetppsalary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Work Location"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetpplocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingTop="20dp"
+                    android:text="Work Bond"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jetppbond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <Button
+                    android:id="@+id/jbtns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="120dp"
+                    android:text="Submit"
+                    android:onClick="SubmitBtn"/>
+
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>
